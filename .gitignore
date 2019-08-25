@@ -1,0 +1,10 @@
+Intermediate/
+Build/
+DerivedDataCache
+Saved
+Binaries
+cmake-build-debug/
+.idea/
+.kdev4/
+.vscode/
+

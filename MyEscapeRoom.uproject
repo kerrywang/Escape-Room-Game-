@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{000458E8-08D7-16AC-C26C-ED90D9C6119F}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MyEscapeRoom",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
