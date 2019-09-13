@@ -1,10 +1,31 @@
 INCLUDEPATH += \
 	/home/kaiyuewang/UnrealEngine/Engine/Source \
-	Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MyEscapeRoom \
-	Source \
-	Source/MyEscapeRoom \
-	/home/kaiyuewang/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Core \
+	/home/kaiyuewang/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Engine \
 	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Classes \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/AI \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/AI/Navigation \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Analytics \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Animation \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Curves \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/EdGraph \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Internationalization \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Net \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Net/Util \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/PacketHandlers \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Performance \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Physics \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Physics/Experimental \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Physics/ImmediatePhysics \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/ProfilingDebugging \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Rendering \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Slate \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Subsystems \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Tests \
+	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/VisualLogger \
+	/home/kaiyuewang/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Core \
 	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Core/Public/Linux \
 	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Core/Public \
 	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Core \
@@ -45,30 +66,6 @@ INCLUDEPATH += \
 	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/Serialization/Formatters \
 	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/Templates \
 	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject \
-	/home/kaiyuewang/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Engine \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Classes \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/AI \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/AI/Navigation \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Analytics \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Animation \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Curves \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/EdGraph \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Internationalization \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Net \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Net/Util \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/PacketHandlers \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Performance \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Physics \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Physics/Experimental \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Physics/ImmediatePhysics \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/ProfilingDebugging \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Rendering \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Slate \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Subsystems \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/Tests \
-	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Engine/Public/VisualLogger \
 	/home/kaiyuewang/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ApplicationCore \
 	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public \
 	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/ApplicationCore \
@@ -432,6 +429,9 @@ INCLUDEPATH += \
 	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/DSP \
 	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/DSP/Encoders \
 	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/SoundFileIO \
+	Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MyEscapeRoom \
+	Source \
+	Source/MyEscapeRoom \
 	/home/kaiyuewang/UnrealEngine/Engine/Source/Runtime/Launch/Private \
 	/home/kaiyuewang/UnrealEngine/Engine/Source/Programs/BlankProgram/Private \
 	/home/kaiyuewang/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/BlankProgram/Inc/Core \
